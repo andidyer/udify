@@ -6,6 +6,6 @@ FROM ${BASE_IMAGE}
 ADD . .
 
 # Install dependencies
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 CMD /bin/bash
